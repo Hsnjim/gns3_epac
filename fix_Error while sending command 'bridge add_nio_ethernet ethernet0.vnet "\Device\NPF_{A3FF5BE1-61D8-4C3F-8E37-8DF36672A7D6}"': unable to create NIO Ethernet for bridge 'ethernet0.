@@ -1,0 +1,5 @@
+En utilisant Vmware workstation comme machine virtuelle j'ai rencontré cette difficulté pour démarrer le rt64 dans GNS3 quand je simule le projet. 
+
+Pour fix ce bug il faille juste taper cette commande dans le cmd (demarré en mode administrateur) : sc config npf start=auto puis redemarrer le PC. 
+
+Enjoy
